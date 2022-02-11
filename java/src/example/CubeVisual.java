@@ -5,6 +5,13 @@ import ie.tudublin.Visual;
 public class CubeVisual extends Visual
 {
     boolean twocubes = false;
+    
+    MyVisual mv;
+
+    public CubeVisual(MyVisual mv)
+    {
+        this.mv = mv;
+    }
 
     public void settings()
     {
@@ -35,8 +42,8 @@ public class CubeVisual extends Visual
         
         setFrameSize(256);
 
-        startMinim();
-        loadAudio("heroplanet.mp3");
+        //startMinim();
+        //loadAudio("heroplanet.mp3");
         //getAp().play();
         //startListening(); 
         

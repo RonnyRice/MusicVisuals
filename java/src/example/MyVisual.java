@@ -32,6 +32,8 @@ public class MyVisual extends Visual
         
         wf = new WaveForm(this);
         abv = new AudioBandsVisual(this);
+        //cv = new CubeVisual(this);
+        
         
     }
 
@@ -63,5 +65,7 @@ public class MyVisual extends Visual
         calculateAverageAmplitude();        
         wf.render();
         abv.render();
+       // cv.draw();
+       
     }
 }
